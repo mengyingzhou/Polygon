@@ -1,0 +1,11 @@
+{
+    "HOSTNAME": "ubuntu",
+    "EXTERNAL_IP": "35.238.212.168",
+    "INTERNAL_IP": "10.128.0.9",
+    "LB_IP":"34.149.48.238",
+    "PROJECT_ID": "soy-haven-327502",
+    "PROJECT_EMAIL": "515088963199-compute@developer.gserviceaccount.com",
+    "DEFAULT_USER_NAME": "ubuntu",
+    "USER_NAME": "ubuntu",
+    "SSH_PUBLIC_KEY": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDuURko3ftTAFBxk3y5p1/sHsRUz9F157M36Bdy6QatBKAYbamaddZzhwrg+yeiPSIH6Jqml3sqBs+8kErpbh8veG+jOGahZBrtluh1lWaaQ2iH5XjEwVXFBcwtPwtxqqLC9s/z7bzolAOO54vn0ufNPUFuoqujgEBf3vmkZId55HXRBoRU3zybaaFKafu55JAmCNPjGqgVX30vteV2zoHEy9L9haLx2d1ct3qUGQLdPRKuojOC3TgWQojKS8yforShHSJ09bewz9/UGq+DBiIu7rUeBcgk13NRNJOkT947Eu5tsJUyEK1aPUMkKBAVGLLAY0PwMH6cA1GxvTygT9hlIsKJEMOLSkHgppP393UJ+ufSHYCnog2EWnJObcW4YIvE9VLPzTeVw+Sdl5gkn1q8l+L1Bn6e/UTMEPFsqcFdTO5dqoEmVLASZNBDdWimj+FgZBab9+DLIC6UIyUgUBdRUPxgQgP5d9emUmZ5h86Wxjif+7A/7AP32SBfe6nzu6k= ubuntu"
+}

@@ -1,0 +1,1 @@
+./examples/client 127.0.0.1 4433 -i -p cpu -o 1 -w cpu --client_ip 35.202.26.48 --client_process 1 --time_stamp 1618232298114 -q
