@@ -1,7 +1,9 @@
 # 1. Introduction to Polygon
-CDN is a crucial Internet infrastructure that allows users to access Internet content with a short delay. With the development of CDN application scenarios, except for latency, resource types like bandwidth and CPU are also important for the performance of the CDN. Moreover, our measurement reveals that there are clear differences in the impact of different resource types on different CDN requests. Unfortunately, mainstream CDN server selection schemes only consider a single resource type, which cannot select the most suitable CDN servers under the conditions of multiple resource type requirements. 
+As CDN application scenarios expand, except for latency, resource types like bandwidth and CPU are also important for CDN performance. However, mainstream CDN server selection schemes solely consider individual resource types, which fail to select the most appropriate CDN servers when multiple resource requirements are present.
 
-We propose **Polygon**, a CDN server selection system supporting multiple resource demands. The specific resource demands are appended in requests to facilitate resource awareness. The keystone of the awareness of multiple resource types is a set of dispatchers, aiming to select suitable CDN servers and allocate requests. Meanwhile, Polygon adopts the 0-RTT and connection migration mechanisms of the QUIC protocol to mitigate the extra delay for connection and forwarding. The real-world evaluations on the Google Cloud Platform and extensive simulation using Mininet demonstrate the Polygon's advantages in improving QoS and resource utilization. The results in the real-world environment show that, compared with the existing solutions, Polygon can provide a better CDN service with a median job completion time reduction of up to 54.8%. Also, Polygon improves resource utilization by 13% in terms of bandwidth and by 7% in terms of CPU. 
+We propose **Polygon**, a CDN server selection system supporting multiple resource demands. The specific resource demands are appended in requests to facilitate resource awareness. The keystone of the awareness of multiple resource types is a set of dispatchers, aiming to select suitable CDN servers and allocate requests. 
+Evaluated on real-world datasets, Polygon achieves a median job completion time reduction of up to 54.8% compared to existing solutions. Additionally, it improves bandwidth utilization by 13% and CPU utilization by 7%.
+
 
 - The workflow of Polygon for CDN server selection
 
@@ -12,7 +14,9 @@ We propose **Polygon**, a CDN server selection system supporting multiple resour
 ![The job completion time performance comparison of DNS-based, PureAnycast, FastRoutet, and Polygon](./results.png)
 
 
-Mengying Zhou, Tiancheng Guo, Yang Chen, Junjie Wan, and Xin Wang. Polygon: A QUIC-Based CDN Server Selection System Supporting Multiple Resource Demands. Proc. of the 22nd ACM/IFIP Middleware Conference (Middleware’21), Industry Track, Virtual Event, Canada, Dec. 2021. [PDF](https://mengyingzhou.github.io/research/Zhou_Polygon_Middleware21.pdf)
+> Mengying Zhou, Tiancheng Guo, Yang Chen, Yupeng Li, Meng Niu, Xin Wang, and Pan Hui. "Polygon: A QUIC-Based CDN Server Selection  System Supporting Multiple Resource Demands." IEEE/ACM Transactions on Networking. **(Under Major Revision)**
+> 
+> A preliminary version of this paper has been published in Middleware'21. [PDF](https://mengyingzhou.github.io/research/Zhou_Polygon_Middleware21.pdf)
 
 
 # 2. Content of this repo
