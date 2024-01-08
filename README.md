@@ -23,9 +23,9 @@ Evaluated on real-world datasets, Polygon achieves a median job completion time 
 This repository contains two main parts: the implementation of the prototype and the evaluation-related scripts.
 
 We list the four prototypes, which are:
-1. [Polygon](./Polygon/README_Polygon.md)
-2. [DNS-based solution baseline](./DNS_CDN/README_DNS.md)
-3. [PureAnycast solution baseline](./Polygon/README_Polygon.md)
-4. [FastRoute solution baseline](./FastRoute/README_FastRoute.md)
+1. [Polygon](./Polygon/README.md)
+2. [DNS-based solution baseline](./DNS_CDN/README.md)
+3. [PureAnycast solution baseline](./Polygon/README.md)
+4. [FastRoute solution baseline](./FastRoute/README.md)
 
 We have written detailed README documents for all of the above prototypes for reference. Each document includes configuration of the environment required to run the prototype, how to compile the prototype, and the pipeline for evaluating the prototype.
